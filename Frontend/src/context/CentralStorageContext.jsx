@@ -4,8 +4,8 @@ export const URLContextProvider = createContext()
 
 const CentralStorageContext = ({children}) => {
 
-    // let url = "https://powerbi-embed-dashboard-backend.onrender.com"
-  let url = "http://localhost:5000"
+    let url = "https://testing-powerbi-embed.onrender.com"
+  // let url = "http://localhost:5000"
 
 
   return (
